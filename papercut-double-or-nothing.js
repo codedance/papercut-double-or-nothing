@@ -50,6 +50,16 @@ function printJobHook(inputs, actions) {
   // 10% House edge/bias
   var HOUSE_ADVANTAGE = 0.10;  
   
+  // Image location
+  var IMAGE_LOCATION = "https://raw.github.com/codedance/papercut-double-or-nothing/master/images/";
+  
+  /* 
+  * It will be faster to copy the three images locally into [install-path]/server/custom/web/
+  * If you do this, uncomment the line below.
+  */
+  //IMAGE_LOCATION = "http://%PC_SERVER%/custom/";
+  
+  
   /********* End Configuration **********/
   
   
@@ -87,7 +97,7 @@ function printJobHook(inputs, actions) {
       + "    background-color: white;'>"
       + "  <div style='padding: 10px; font-weight: bold; font-size: 20px; text-align: center; color: red;'>"
       + "    You could win a FREE print job!<br><br>"
-      + "    <img src='https://raw.github.com/codedance/papercut-double-or-nothing/master/images/gamble-ad.gif'>"
+      + "    <img width=125 height=125 src='" + IMAGE_LOCATION + "gamble-ad.gif'>"
       + "  </div>"
       + "  <div style='font-size: 14px; font-weight: bold; text-align: center; color: green;'>"
       + "    Play double or nothing to win free printing!"
@@ -107,7 +117,7 @@ function printJobHook(inputs, actions) {
       + "    background-color: white;'>"
       + "  <div style='padding: 10px; font-weight: bold; font-size: 20px; text-align: center; color: green;'>"
       + "    You Won!<br><br>"
-      + "    <img src='https://raw.github.com/codedance/papercut-double-or-nothing/master/images/win.jpg'>"
+      + "    <img width=229 height=112 src='" + IMAGE_LOCATION + "win.jpg'>"
       + "  </div>"
       + "  <div style='font-size: 14px; font-weight: bold; text-align: center; color: green;'>"
       + "    This print job is free!"
@@ -124,7 +134,7 @@ function printJobHook(inputs, actions) {
       + "    background-color: white;'>"
       + "  <div style='padding: 10px; font-weight: bold; font-size: 20px; text-align: center;'>"
       + "    Sorry! You lost this time.<br><br>"
-      + "    <img src='https://raw.github.com/codedance/papercut-double-or-nothing/master/images/loss.png'>"
+      + "    <img width=228 height=132 src='" + IMAGE_LOCATION + "loss.png'>"
       + "  </div>"
       + "  <div style='font-size: 14px; text-align: center'>"
       + "    This print job will be charged at double rate."
@@ -147,7 +157,7 @@ function printJobHook(inputs, actions) {
   var response;
   response = actions.client.promptYesNo(playDialog.replace("{teaser}", teaser),
                                         {
-                                          'dialogTitle': 'Printing Casino' + actions.job,
+                                          'dialogTitle': 'Printing Casino',
                                           'dialogDesc': 'Would you like to play double or nothing?',
                                           'hideJobDetails': true,
                                           'fastResponse': true,

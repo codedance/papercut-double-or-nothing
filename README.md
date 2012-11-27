@@ -3,7 +3,7 @@
 This is my example script for the EduGeek [PaperCut](http://www.papercut.com/) 
 print script competition.
 
-    http://www.papercut.com/edugeek-comp/
+See http://www.papercut.com/edugeek-comp/
 
 Its objective is simple:
 
@@ -34,6 +34,12 @@ The script uses all the "tricks" for the gambling industry including:
 * Every time someone in the IT Department prints, a secret message will 
   display in the task tray letting us know how much illegal money we've 
   made.
+
+## Screen Shots
+
+![Want to play?](https://raw.github.com/codedance/papercut-double-or-nothing/master/images/screen-shot-1.png)
+![Win?](https://raw.github.com/codedance/papercut-double-or-nothing/master/images/screen-shot-2.png)
+![Lose?](https://raw.github.com/codedance/papercut-double-or-nothing/master/images/screen-shot-3.png)
 
 ## Installation
 
