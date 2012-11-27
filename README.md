@@ -37,9 +37,18 @@ The script uses all the "tricks" for the gambling industry including:
 
 ## Screen Shots
 
-![Want to play?](https://raw.github.com/codedance/papercut-double-or-nothing/master/images/screen-shot-1.png)
-![Win?](https://raw.github.com/codedance/papercut-double-or-nothing/master/images/screen-shot-2.png)
-![Lose?](https://raw.github.com/codedance/papercut-double-or-nothing/master/images/screen-shot-3.png)
+*Tempt the student!*
+
+<img src="https://raw.github.com/codedance/papercut-double-or-nothing/master/images/screen-shot-1.png" />
+
+*You're a winner!*
+
+<img src="https://raw.github.com/codedance/papercut-double-or-nothing/master/images/screen-shot-2.png" />
+
+*You list (but we've got some funds for our party :-)*
+
+<img src="https://raw.github.com/codedance/papercut-double-or-nothing/master/images/screen-shot-3.png" />
+
 
 ## Installation
 
