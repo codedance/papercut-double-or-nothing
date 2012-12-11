@@ -47,7 +47,7 @@ The script uses all the "tricks" for the gambling industry including:
 
 <img src="https://raw.github.com/codedance/papercut-double-or-nothing/master/images/screen-shot-2.png" />
 
-*You list (but we've got some funds for our party :-)*
+*You lost (but we've got some funds for our party :-)*
 
 <img src="https://raw.github.com/codedance/papercut-double-or-nothing/master/images/screen-shot-3.png" />
 

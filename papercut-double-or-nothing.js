@@ -1,6 +1,6 @@
 /*
 * This is my example script for the EduGeek PaperCut print script competition.  
-*    http://www.papercut.com/
+*    http://www.papercut.com/edugeek/competition/
 *
 * Its objective is simple:
 *
