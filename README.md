@@ -3,7 +3,9 @@
 This is my example script for the EduGeek [PaperCut](http://www.papercut.com/) 
 print script competition.
 
-See http://www.papercut.com/edugeek-comp/
+See http://www.papercut.com/edugeek/competition/
+
+Also check out the [Demo Video](http://www.youtube.com/watch?feature=player_embedded&v=HJ2XkhxoDSU).
 
 Its objective is simple:
 
